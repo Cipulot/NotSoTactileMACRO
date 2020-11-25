@@ -145,12 +145,12 @@ void checkEncoder(int select)
 			if (layoutSelect < 3)
 			{
 				layoutSelect++;
-				Keyboard.print((String) "Layer No. " + layoutSelect);
+				//Keyboard.print((String) "Layer No. " + layoutSelect);
 			}
 			else
 			{
 				layoutSelect = 0;
-				Keyboard.print((String) "Layer No. " + layoutSelect);
+				//Keyboard.print((String) "Layer No. " + layoutSelect);
 			}
 			break;
 		}
